@@ -7,13 +7,12 @@ angular.module('b&bapp')
   var init = function(){
   	$scope.bank_params = {};
 		$scope.form = {};
-		$scope.banks = [];
 		$scope.search_options = [{'id':1, 'value':'IFSC Code'}, {'id':2, 'value':'Bank and City'}];
 	  $scope.bank_params.opt = $scope.search_options[0];
   };
 
   $scope._getBankDetails = function() {
-
+    $scope.banks = [];
   	var params = {
   		'search_type' : $scope.bank_params.opt.id,
   		'ifsc_code' : $scope.bank_params && $scope.bank_params.ifsc ? $scope.bank_params.ifsc : null,
