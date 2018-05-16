@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./server/bin/www",
-    "postinstall": "bower cache clean && bower install"
+    "postinstall": "bower install"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
