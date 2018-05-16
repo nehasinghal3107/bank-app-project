@@ -18,7 +18,6 @@ var _obj = {
         }
 
         function _responseCallback (err, res) {
-            console.log('dhcsj')
             if (err) {
                 console.log(err)
                 return

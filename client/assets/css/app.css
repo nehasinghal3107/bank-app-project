@@ -3,6 +3,16 @@
   padding: 0px;
 }
 
+.border-radius-none {
+  border-radius: 0px;
+}
+.box-eod {
+  border: medium none !important;
+  min-height: 65vh;
+  max-height: 65vh;
+  /*overflow-y: auto !important;*/
+  width: 100%;
+}
 
 
 
