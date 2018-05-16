@@ -31,7 +31,7 @@ module.exports = function(app) {
 
     // Direct to home page
     app.get('/*', function(req, res) {
-      res.sendFile(path.join(config.root, 'client/index.html'));
+      res.sendFile(path.join(__dirname, 'client/index.html'));
     });
 
 }; 
